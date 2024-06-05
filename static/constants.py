@@ -7,3 +7,4 @@ from dotenv import dotenv_values
 
 secrets = dotenv_values(".env")
 path_model = "models/model.keras"
+path_data = "data/"

@@ -21,3 +21,4 @@ def get_data_fichaje_db(id_emp=None):
     vals = (id_emp,)
     flag, error, result = execute_sql(sql, vals, 2)
     return flag, error, result
+
